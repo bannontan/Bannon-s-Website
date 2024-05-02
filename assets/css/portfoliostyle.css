@@ -127,11 +127,22 @@ a {
     }
     .navword {
         font-size: 0.5rem;
-        align-self: center;
         color: #222831;
         font-weight: 550;
         }
     .selectedword {
         text-decoration: underline 1.5px #222831 !important;
+    }
+    .navigationbar {
+        padding-top: 15px;
+        padding-left: 7px;
+    }
+
+    .hometab .navword {
+        padding-top: 5px;
+    }
+
+    .portfolio .navword {
+        padding-top: 3px;
     }
 }
