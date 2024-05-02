@@ -134,8 +134,8 @@ a {
         text-decoration: underline 1.5px #222831 !important;
     }
     .navigationbar {
-        padding-top: 15px;
-        padding-left: 7px;
+        padding-top: 5px;
+        padding-left: 0px;
     }
 
     .hometab .navword {
@@ -143,6 +143,6 @@ a {
     }
 
     .portfolio .navword {
-        padding-top: 3px;
+        padding-top: 0px;
     }
 }
