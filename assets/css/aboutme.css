@@ -118,7 +118,7 @@ a {
  
  }
  
- @media (max-width: 700px) {
+ @media (max-width: 768px) {
      .navlogo {
          height: 20px;
          margin-right: 0px;
