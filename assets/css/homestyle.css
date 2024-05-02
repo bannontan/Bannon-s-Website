@@ -152,6 +152,9 @@ a {
     }
     .navword {
         font-size: 0.5rem;
+        align-self: center;
+        color: #222831;
+        font-weight: 550;
     }
     .selectedword {
         text-decoration: underline 1.5px #222831 !important;
