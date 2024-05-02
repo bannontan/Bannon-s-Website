@@ -106,3 +106,50 @@ a {
         float:inline-start !important;
     }
 }
+
+@media (max-width: 1300px) {
+    .navlogo {
+         height: 25px;
+         margin-right: 5px;
+     }
+     .navword {
+         font-size: 1rem;
+     }
+ 
+ }
+ 
+ @media (max-width: 700px) {
+     .navlogo {
+         height: 20px;
+         margin-right: 0px;
+         align-self: flex-start;
+     }
+     .navword {
+         font-size: 0.5rem;
+         color: #222831;
+         font-weight: 550;
+         }
+     .selectedword {
+         text-decoration: underline 1.5px #222831 !important;
+     }
+     .navigationbar {
+         padding-top: 15px;
+         padding-left: 0px;
+     }
+ 
+     .hometab .navword {
+         padding-top: 5px;
+     }
+ 
+     .portfolio .navword {
+         padding-top: 5px;
+     }
+     
+     .about .navword {
+         padding-top: 4px;
+     }
+ 
+     .linkedin .navword {
+         padding-top: 4px;
+     }
+ }
