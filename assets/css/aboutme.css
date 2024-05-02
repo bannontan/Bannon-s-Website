@@ -1,0 +1,108 @@
+body {
+    background-color: #dddd;
+}
+
+.home {
+    background-color: #dddd;
+}
+
+.standout {
+    font-weight: bold;
+    color: #30475e;
+}
+
+#profile-pic {
+    border-radius: 50%;
+}
+
+* {
+    font-family: "Poppins";
+}
+
+
+.featurette {
+    padding: 30px !important;
+    background-color: #dddd;
+}
+
+.info {
+    text-align: justify;
+}
+
+.navigationbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "home portfolio about linkedin";
+    background-color: #dddd !important;
+    color: #222831;
+    font-family: "Poppins";
+    gap: 1.5rem;
+    padding-top: 27px;
+    padding-left: 7px;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+.hometab {
+    grid-area: home;
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio {
+    grid-area: portfolio;
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    grid-area: about;
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+}
+
+.linkedin {
+    grid-area: linkedin;
+    font-family: "Poppins";
+    display: flex;
+    justify-content: center;
+}
+
+.navword {
+    font-family: "Poppins";
+    font-size: 1.2rem;
+    align-self: center;
+    color: #222831;
+    font-weight: 550;
+}
+
+
+
+.navlogo {
+    height: 30px;
+    margin-right: 5px;
+}
+
+.selectedword {
+    text-decoration: underline 3px #222831 !important;
+}
+
+@media (min-width: 768px) {
+    .featurette-image {
+        object-fit: cover !important;
+        position: relative !important;
+        float:inline-end !important;
+        }
+
+    .left-featurette-img {
+        object-fit: cover !important;
+        position: relative !important;
+        float:inline-start !important;
+    }
+}
