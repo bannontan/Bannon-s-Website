@@ -23,6 +23,8 @@ body {
 .featurette {
     padding: 30px !important;
     background-color: #dddd;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .info {
