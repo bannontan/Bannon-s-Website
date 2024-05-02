@@ -138,11 +138,19 @@ a {
         padding-left: 0px;
     }
 
-    .hometab .navword {
+   .hometab .navword {
         padding-top: 5px;
     }
 
     .portfolio .navword {
-        padding-top: 0px;
+        padding-top: 3px;
+    }
+    
+    .about .navword {
+        padding-top: 5px;
+    }
+
+    .linkedin .navword {
+        padding-top: 4px;
     }
 }
