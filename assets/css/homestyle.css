@@ -153,11 +153,4 @@ a {
     .navword {
         font-size: 0.5rem;
     }
-    .home  p {
-        transform: translateY(48%);
-    }
-
-    .portfolio p {
-        transform: translateY(48%);
-    }
 }
