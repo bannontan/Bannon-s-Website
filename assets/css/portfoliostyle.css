@@ -107,3 +107,31 @@ a {
 .selectedword {
     text-decoration: underline 3px #222831 !important;
 }
+
+@media (max-width: 1300px) {
+   .navlogo {
+        height: 25px;
+        margin-right: 5px;
+    }
+    .navword {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .navlogo {
+        height: 20px;
+        margin-right: 0px;
+        align-self: flex-start;
+    }
+    .navword {
+        font-size: 0.5rem;
+        align-self: center;
+        color: #222831;
+        font-weight: 550;
+        }
+    .selectedword {
+        text-decoration: underline 1.5px #222831 !important;
+    }
+}
