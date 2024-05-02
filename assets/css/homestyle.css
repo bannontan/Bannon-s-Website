@@ -153,4 +153,7 @@ a {
     .navword {
         font-size: 0.5rem;
     }
+    .selectedword {
+        text-decoration: underline 1.5px #222831 !important;
+    }
 }
