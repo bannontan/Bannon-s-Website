@@ -160,3 +160,23 @@ a {
         text-decoration: underline 1.5px #222831 !important;
     }
 }
+
+@media (max-width: 390px) {
+    .text > p {
+        font-size: 1rem;
+    }
+    .skilllogo {
+        height: 35px;
+        margin: 8px;
+    }
+    .navlogo {
+        height: 20px;
+        margin-right: 0px;
+    }
+    .navword {
+        font-size: 0.5rem;
+    }
+    .selectedword {
+        text-decoration: underline 1.5px #222831 !important;
+    }
+}
