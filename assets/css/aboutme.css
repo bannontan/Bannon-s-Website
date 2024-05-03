@@ -23,8 +23,6 @@ body {
 .featurette {
     padding: 30px !important;
     background-color: #dddd;
-    margin-left: 0px;
-    margin-right: 0px;
 }
 
 .info {
@@ -95,6 +93,13 @@ a {
     text-decoration: underline 3px #222831 !important;
 }
 
+.image {
+    object-fit: none;
+    overflow: hidden;
+    height: 500px !important;
+
+}
+
 @media (min-width: 768px) {
     .featurette-image {
         object-fit: cover !important;
@@ -120,7 +125,7 @@ a {
  
  }
  
- @media (max-width: 768px) {
+ @media (max-width: 700px) {
      .navlogo {
          height: 20px;
          margin-right: 0px;
