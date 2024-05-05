@@ -26,16 +26,18 @@ html {
     color: #222831;
 }
 
-.ninjector {
-    margin-bottom: 20px;
+.underlined {
+    text-decoration: underline;
+
 }
+
 
 .skill1 {
     color: #f05454;
     font-weight: bold;
 }
 
-.banyan {
+.proj-image {
     margin-bottom: 20px;
 }
 
@@ -138,7 +140,7 @@ a {
         padding-left: 0px;
     }
 
-   .hometab .navword {
+    .hometab .navword {
         padding-top: 5px;
     }
 
